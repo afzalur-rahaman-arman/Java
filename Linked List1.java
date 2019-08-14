@@ -11,24 +11,24 @@ public class Test
         LinkedList<String> object = new LinkedList<String>(); 
   
         // Adding elements to the linked list 
-        object.add("A"); 
-        object.add("B"); 
-        object.addLast("C"); 
-        object.addFirst("D"); 
-        object.add(2, "E"); 
-        object.add("F"); 
-        object.add("G"); 
+        object.add("Afzal"); 
+        object.add("Borhan"); 
+        object.addLast("Chy"); 
+        object.addFirst("Dulal"); 
+        object.add(2, "Emon"); 
+        object.add("Faruk"); 
+        object.add("Gias"); 
         System.out.println("Linked list : " + object); 
   
         // Removing elements from the linked list 
-        object.remove("B"); 
+        object.remove("Borhan"); 
         object.remove(3); 
         object.removeFirst(); 
         object.removeLast(); 
         System.out.println("Linked list after deletion: " + object); 
   
         // Finding elements in the linked list 
-        boolean status = object.contains("E"); 
+        boolean status = object.contains("Emon"); 
   
         if(status) 
             System.out.println("List contains the element 'E' "); 
@@ -42,7 +42,7 @@ public class Test
         // Get and set elements from linked list 
         Object element = object.get(2); 
         System.out.println("Element returned by get() : " + element); 
-        object.set(2, "Y"); 
+        object.set(2, "Yellow"); 
         System.out.println("Linked list after change : " + object); 
     } 
 } 
