@@ -31,9 +31,9 @@ public class Test
         boolean status = object.contains("Emon"); 
   
         if(status) 
-            System.out.println("List contains the element 'E' "); 
+            System.out.println("List contains the element 'Emon' "); 
         else
-            System.out.println("List doesn't contain the element 'E'"); 
+            System.out.println("List doesn't contain the element Emon "); 
   
         // Number of elements in the linked list 
         int size = object.size(); 
