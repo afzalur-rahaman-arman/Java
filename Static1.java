@@ -12,6 +12,6 @@ class UseStatic {
  b = a * 4;
  }
  public static void main(String args[]) {
- meth(42);
+ meth(100);
  }
 }
