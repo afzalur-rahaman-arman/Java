@@ -33,3 +33,15 @@ public class linkedlist1 {
         System.out.println("Linked list after deletion: " + object); 
   }
 }
+
+
+/*
+
+
+output: 
+
+Linked list : [77, 88888, 5, 999, 90, 60, 80]
+Linked list after deletion: [88888, 5, 60]
+
+
+*/
